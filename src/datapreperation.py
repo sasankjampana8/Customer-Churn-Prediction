@@ -11,7 +11,11 @@ class DataPrep:
         Y = self.data['']
         X = X.drop([''], axis=1)
         self.X_train, self.X_val, self.Y_train, self.Y_val = train_test_split(X, Y, test_size=0.3, random_state=42)
-        
+    
+    
+    
+    
+    
     def preprocess(self,):
         return self.X_train, self.X_val, self.Y_train, self.Y_val
         
